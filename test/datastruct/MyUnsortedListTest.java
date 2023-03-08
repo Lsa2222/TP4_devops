@@ -6,6 +6,7 @@ import org.junit.Test;
 
 public class MyUnsortedListTest {
 
+	//j'ai fait un test sur la size
 	@Test 
 	public void testSize() {
 		UnsortedList<Integer> list = MyUnsortedList.of();
@@ -14,6 +15,7 @@ public class MyUnsortedListTest {
 		assertEquals(3, list.size());
 	}
 	
+	//j'ai fait un test sur le toString
 	@Test
 	public void testToString() {
 		UnsortedList<Integer> list = MyUnsortedList.of(4,9,2,6);

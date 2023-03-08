@@ -24,6 +24,7 @@ public class MyUnsortedListTest {
 		assertEquals("MyUnsortedList { size = 0, [] }", list.toString());
 	}
 	
+	// j'ai fait un teste sur isEmpty
 	@Test
 	public void testIsEmpty() {
 		UnsortedList<Integer> list = MyUnsortedList.of();
